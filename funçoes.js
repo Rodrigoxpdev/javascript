@@ -7,9 +7,6 @@ var s2 = 'css'
 var s3 = 'javaScript'
 
 
-function teste(){
-    window.s1.alert(n1)
-}
 
 
 

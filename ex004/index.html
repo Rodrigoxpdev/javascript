@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- -----------------------LINKS CSS------------------------------------>
+<link rel="stylesheet" href="estilos/style.css" media="screen" max-width: 600px> 
+
+<!-- -------------------------ICONES-------------------------------------->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=person_password" />
+
+
+<!-- -------------------------------------------------------------------->
+    <title>JavaScript</title>
+
+</head>
+<body>
+    
+    
+    <div class="conteiner"> <!--CAIXA PAI-->
+        <div class="login"> <!--CAIXA FILHO-->
+            <h1>Login</h1>
+            <form action="dados-login.php" method="post" autocomplete="on"> <!--FORMULARIO-->
+                
+                <!-- USUARIO -->
+                <div class="campo">
+                    <label for="iusuario">Usuario:</label>
+                    <span class="material-symbols-outlined">person</span>
+                    <input type="text" name="usuario" id="iusuario" autocomplete="name" minlength="5" maxlength="30" placeholder="Digite seu nome" required>
+                </div>
+                
+
+                <!-- SENHA -->
+                <div class="campo">
+                    <label for="isenha">Senha:</label>
+                    <span class="material-symbols-outlined">password</span>
+                    <input type="password" name="senha" id="isenha" autocomplete="current-password" minlength="6" maxlength="8" placeholder="Digite sua senha" required>
+                </div>
+                
+                
+                
+                <!-- BOTOES -->
+                <button class="btn" type="submit">Entrar</button>
+        </form>
+    </div>
+    </div>
+    
+    
+    
+    
+    <script>
+        // var nome = window.prompt('Qual é o seu nome?')
+        // document.write(`Seu nome tem ${nome.length} letras. <br/>`)
+        // document.writeln(`Seu nome em maiusculo é ${nome.toUpperCase()} <br/>`)
+        // document.write(`Seu nome em minusculo é ${nome.toLowerCase()}`)
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+O SINAL DE = EM JAVASCRIPT É CHAMADO DE RECEBE
+EX: VAGA A1 = CARRO1: A VAGA ESTÁ RECEBENDO O CARRO
+
+null = nulo valor nenhum
+----------------------------------------------------
+
+====================VARIAVEIS JS====================
+SERVE PARA ARMAZENAR OS DADOS (SALVAR)
+
+=================TIPOS PRIMITIVOS===================
+VARIAVEIS TIPO:
+STRING = TEXTO
+NUMBER = NUMERO
+BOOLEAN = FALSE , TRUE  = VERDADEIRO OU FALSO
+
+TYPEOF = "TIPO DE" 
+
+=====================================================
+
+
+-------------------------
+CONCATENAR EM JS USA O +
+--------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

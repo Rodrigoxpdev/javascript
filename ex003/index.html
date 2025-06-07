@@ -17,20 +17,19 @@
         }
 
     </style>
-
-
-
 </head>
 <body>
     <h1 id="t">Meu curso de javaScript</h1>
     <p>testando meu codigo</p>
 
 
-    <script>
-        window.alert('Minha primeira mensagem em js')
-        window.confirm('Está gostando de js?')
-        window.prompt('qual seu nome?')
-    </script>
 
+<!-- --------------------------------------------------------------- -->
+    <script>
+        var n1 = Number.parseInt(window.prompt('Digite seu numero'))//RECEBE COMO STRING "TEXTO"
+        var n2 = Number.parseInt(window.prompt('digite outro numero'))//RECEBE COMO STRING "TEXTO"
+        var s = n1 + n2
+        window.alert(`A soma de ${n1} + ${n2} é igual a ${s}`)
+    </script>
 </body>
 </html>

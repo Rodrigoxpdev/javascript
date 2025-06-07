@@ -1,0 +1,81 @@
+O SINAL DE = EM JAVASCRIPT É CHAMADO DE RECEBE
+EX: VAGA A1 = CARRO1: A VAGA ESTÁ RECEBENDO O CARRO
+
+null = nulo valor nenhum
+----------------------------------------------------
+
+====================VARIAVEIS JS====================
+SERVE PARA ARMAZENAR OS DADOS (SALVAR)
+
+=================TIPOS PRIMITIVOS===================
+VARIAVEIS TIPO:
+STRING = TEXTO
+NUMBER = NUMERO
+BOOLEAN = FALSE , TRUE  = VERDADEIRO OU FALSO
+
+TYPEOF = "TIPO DE" 
+
+=====================================================
+
+
+-------------------------
+CONCATENAR EM JS USA O +
+--------------------------
++ PARA ADIÇÃO
++ PARA CONCATENAR 
+
+PARA CONVERTER  PARA NUMERO
+PODE SER SO "parseint"
+PODE SER UTILIZADO SO Number, O JS SE VIRA PARA SABER MAIS DA CERTO
+Number.parseint(n)  NUMERO PARA NUMERO INTEIRO 
+Number.parseFloat(n) NUMERO COM VIRGULAS = CONVERTER PARA METADE EM METADE
+
+=======================NUMERO=========================
+var n1 = Number.parseInt(window.prompt('Digite seu numero'))//RECEBE COMO STRING "TEXTO"
+var n2 = Number.parseInt(window.prompt('digite outro numero'))//RECEBE COMO STRING "TEXTO"
+=====================================================================
+
+
+
+
+
+
+
+
+===============================STRING===============================
+CONVERTER PARA STRING:
+String(n)
+n.toString()
+
+ex:
+window.alert('A soma é ' + String(s))
+
+ex2:
+'o ' + nome + ' com ' + idade + ' anos tirou a nota ' + nota
+
+ex3:
+window.alert(`A soma é ${s}`)  utilizamos o crazi `` JUNTO COM O ${}
+window.alert(`A soma de ${n1} + ${n2} é igual a ${s}`)
+=====================================================================
+s.length =  QUANTAS LETRAS TEM A STRING
+
+s.toUpperCase() TRANSFORMAR EM LETRAS MAIUSCULAS
+
+s.toLowerCase() TUDO PARA LETRAS MINUSCULAS
+
+======================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

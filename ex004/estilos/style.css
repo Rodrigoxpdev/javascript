@@ -1,5 +1,18 @@
 @charset "UTF-8";
 
+/* CFG GERAL */
+:root{
+    --cor01: #0027EC;
+    --cor02: #0022CA;
+    --cor03: #0029F5 ;
+    --cor04: #001CA8 ;
+    --cor05: #001686 ;
+    --cor06: #001164;
+}
+
+
+
+
 /* RESETANDO O CORPO DA PAGINA */
 *{
     margin: 0px;
@@ -32,7 +45,7 @@ div.conteiner{
 div.login{
     width: 300px;
     padding: 20px;
-    border: 1px solid rgb(0, 255, 98);
+    /* border: 1px solid rgb(0, 255, 98); */
     background-color: rgba(255, 255, 255, 0.856);
     justify-items: center;
     align-items: center;
@@ -75,7 +88,6 @@ input#iusuario{
     border-radius: 5px;
     border: none;
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.219);
-    
 }
 
 
@@ -91,17 +103,23 @@ input#isenha{
 /* ICONES*/
 span{
     display: flex;
-    color: blue;
+    color: var(--cor01);
     flex-flow: row wrap;
 }
 
 
 /* BOTÃO */
 button.btn{
+    width: 85%;
     margin-top:20px;
     padding: 10px;
-    width: 85%;
     margin-left: 25px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    background-color: #0027EC;
 }
 
 

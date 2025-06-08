@@ -11,8 +11,6 @@ document.write(`Seu nome em minusculo é ${nome.toLowerCase()}`)
 
 
 
-
-
 ------------------metodo para formatar numeros ------------------
 toFixed(2) colocando duas casas decimal
 
@@ -22,8 +20,8 @@ toFixed(2).replace('.' , ',')   substituindo . por ,
 n1.toLocaleString('pt-BR', {style: 'currency',  currency: 'BRL'})    string localizada 
 
 
-
-
+=========COMO INPORTAR UM JS EXTERNO============================
+<script src="funçoes/function.js"></script>
 
 
 

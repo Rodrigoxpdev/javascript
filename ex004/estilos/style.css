@@ -122,7 +122,10 @@ button.btn{
     background-color: #0027EC;
 }
 
-
+button.btn:hover{
+    background-color: var(--cor04);
+    cursor: pointer;
+}
 
 
 

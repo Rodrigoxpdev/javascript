@@ -16,16 +16,11 @@
 
 //---------------------------------------------------------------
 
-
-
-
-
-
-
-
-
-
-
+const nome2 = window.prompt("Qual é seu nome ?")
+const sobreNome2 = window.prompt("Seu sobrenome")
+const idade2 = window.prompt("Digite sua idade")
+const profissao2 = window.prompt("Qual é a sua profissão ?")
+window.alert(`Olá ${nome2} ${sobreNome2} sua idade é  ${idade2} anos sua profissão é ${profissao2}`)
 
 
 

@@ -27,11 +27,8 @@ NUMBER: NUMEROS INTEIROS E FRACIONADOS
 infinity:
 NaN:
 
-
 -----------------------------------
 STRING: CONJUNTO COMPOSTO DE NUMEROS , - ETC...
-
-
 
 -----------------------------------
 BOOLEAN: FALSE, TRUE = VERDADEIRO OU FALSO
@@ -74,17 +71,49 @@ window.alert(`A soma de ${n1} + ${n2} é igual a ${s}`);
 ----------------------------------------------------------------------------------------
 
 
+=====CONVERTER NUMERO INTEIRO PARA METADE===============================================
+
+PARA CONVERTER  PARA NUMERO
+PODE SER SO "parseint"
+
+PODE SER UTILIZADO SO Number, O JS SE VIRA PARA SABER MAIS DA CERTO
+
+Number.parseint(n)  NUMERO PARA NUMERO INTEIRO 
+
+Number.parseFloat(n) NUMERO COM VIRGULAS = CONVERTER PARA METADE EM METADE
+
+EX:
+const n1 = Number.parseInt(window.prompt('Digite seu numero')) //RECEBE COMO NUMBER
+
+const n2 = Number.parseFloat(window.prompt('Digite seu numero')) //RECEBE COMO NUMBER
+
+const n3 = Number(window.prompt('Digite seu numero')) TBM DA CERTO
+========================================================================================
 
 
+=================================CONVERTER PARA STRING=================================
+string(soma)
+soma.toString()
+
+EX:
+const n1 = Number(window.prompt("Digite o numero"))
+const n2 = Number(window.prompt("Digite o numero"))
+
+const = soma n1 + n2
+
+EX1:
+window.alert(`A soma dos valores é ` + String(soma))
 
 
+EX2:
+window.alert(`A soma dos valores é ` + soma.toString())
+----------------------------------------------------------------------------------------
 
-
-
-
-
-
-
+================TRABALHANDO COM STRING================
+const nome = window.prompt("qual e seu nome?")
+document.write(`seu nome tem ${nome.length} letras <br/>` )
+document.writeln(`nome em maiusculo ${nome.toUpperCase()} <br/>`);
+document.writeln(`nome em minusculo ${nome.toLowerCase()}`)
 
 
 

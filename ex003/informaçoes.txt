@@ -63,6 +63,11 @@ s.toUpperCase() TRANSFORMAR EM LETRAS MAIUSCULAS
 
 s.toLowerCase() TUDO PARA LETRAS MINUSCULAS
 
+const nome = window.prompt("qual e seu nome?")
+document.write(`seu nome tem ${nome.length} letras <br/>` )
+document.writeln(`nome em maiusculo ${nome.toUpperCase()} <br/>`);
+document.writeln(`nome em minusculo ${nome.toLowerCase()}`)
+
 ======================================================================
 
 

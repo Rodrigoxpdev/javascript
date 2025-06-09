@@ -1,0 +1,86 @@
+O SINAL DE = EM JAVASCRIPT É CHAMADO DE RECEBE
+EX: VAGA A1 = CARRO1: A VAGA ESTÁ RECEBENDO O CARRO
+
+null = nulo valor nenhum
+----------------------------------------------------
+
+====================VARIAVEIS JS====================
+SERVE PARA ARMAZENAR OS DADOS (SALVAR)
+
+=================TIPOS PRIMITIVOS===================
+VARIAVEIS TIPO:
+STRING = TEXTO
+NUMBER = NUMERO
+BOOLEAN = FALSE , TRUE  = VERDADEIRO OU FALSO
+
+TYPEOF = "TIPO DE" 
+
+=====================================================
+
+
+
+
+
+--------------OPERADORES ARITMETICOS JS--------------
+
+5+3 = 7
+5-2 = 3
+5*2 = 10
+5/2 = 2.5
+5 % 1 = 1 RESTO DO NUMERO INTEIRO %
+5** 2 = 25 NESTE CASO FICA 5 AO QUADRADO
+5+3 / 2 = 6.5 NESSE CASO ELE FAZ PRIMEIRO A DIVISAO
+(5 + 3) / 2 = NESSA CASO A SOMA E FEITO PRIMEIRO
+
+
+------------------ODEN DE PRECEDENCIA------------------
+1 () PARENTESES
+2 ** POTENCIAS
+3 * MULTIPLICAÇAO
+4 / DIVISAO
+5 % RESTO DA DIVISAO
+
+6 + SOMA
+7 - SUBTRAÇAO
+
+
+=============OPERADORES DE ATRIBUIÇOES SIMPLES=========
+const a = 5 + 3 
+const b = a % 5
+const c = 5*b**2
+const d = 10 - a/2
+const e = 6*2 /d
+const f = b % e + 4/e
+
+
+=============OPERADORES DE AUTO ATRIBUIÇOES=========
+const n = 3
+n = n + 4
+n = n - 5
+n * 4
+n = n/2
+
+
+=======OPERADORES DE AUTO ATRIBUIÇOES SIMPLIFICADO ======
+PADRAO:           SIMPLIFICADO:
+const = n=3                   
+n=n + 4            n  += 4   
+n=n - 5            n  -= 5
+n=n * 4            n  *= 4       
+n=n / 2            n  /= 2         
+n=n **2            n  **= 2         
+n=n % 5            n  %=  5        
+
+
+
+
+=======OPERADORES DE AUTO ATRIBUIÇOES INCREMTO ======
+PADRAO:          SIMPLIFICADO:    INCREMTO:            
+const x = 10                      x++         
+x=x+1              x+=1           x--            
+x=x-1               x-=                 
+
+OBS: ADICIONANDO 1 NUMERO A MAIS USANDO O ++
+OBS: TIRANDO 1 NUMERO  USANDO O --
+
+

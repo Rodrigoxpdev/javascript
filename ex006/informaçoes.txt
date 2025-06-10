@@ -84,3 +84,58 @@ OBS: ADICIONANDO 1 NUMERO A MAIS USANDO O ++
 OBS: TIRANDO 1 NUMERO  USANDO O --
 
 
+==============OPERADORES RELACIONAIS JS ==============
+> = MAIOR
+< = MENOR
+> = MAIOR OU IGUAL
+< = MENOR OU IGUAL
+== VERIFICAÇAO SE E IGUAL
+!= SE NAO FOR IGUAL
+
+EX:
+5 > 2 TRUE
+7 < 4 FALSE
+8 >= 8 TRUE
+9 <=7 FALSE
+5 == 5 TRUE
+4 != 4 FALSE
+
+================OPERADORES DE IDENTIDADE JS ================
+5 == 5  TRUE
+5 == '5' TRUE
+5 === '5' FALSE  FAZ A VERIFICAÇAO SE SAO IDENTICOS
+5 === 5  TRUE 
+
+
+====================OPERADORES LOGICOS JS====================
+! NEGAÇAO     UNARIO APENAS 1 
+&& CONJUNÇAO  BINARIO  
+|| DISJUNÇAO 'OU LOGICO' BINARIO
+
+
+
+======================OPERADOR TERNARIO======================
+3 OPERANDO 
+
+TESTE ? APROVADO : "REPROVADO"
+cosnt media = 5.5
+media > 7? 'APROVADO' : 'REPROVADO'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

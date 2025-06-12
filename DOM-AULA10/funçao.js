@@ -1,0 +1,46 @@
+// SE DEIXAR O CONST FORA DA FUNCTION FICA ACESSIVEL DE FORMA GLOBAR SENDO ASSIM POSSO CHAMAR A MESMA FUNÇAO EM VARIOS COMANOS
+const a = document.getElementById('area')
+// a.document.getElementById('entrar')
+
+
+
+// ========================================
+function clicar(){
+    a.innerText = 'clicou'
+}
+
+function entrar(){
+    a.innerText = 'entrou'
+}
+
+function sair(){
+    a.innerText = 'Saiu'
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

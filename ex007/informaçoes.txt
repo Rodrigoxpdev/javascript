@@ -150,9 +150,14 @@ window.document.writeln('esta escrito assim: ' + p1.innerHTML)
 
 =========================================
 
+===============TECNICAS JS ===============
+getElementsByTagName
+ID
+Name
+className
+querySelector
 
-
-
+============================================
 
 
 

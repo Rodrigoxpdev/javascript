@@ -1,5 +1,5 @@
 // =======================================
-const p1 = window.document.getElementsByTagName('p')[1]
+// const p1 = window.document.getElementsByTagName('p')[1]
 
 //window.document.writeln('esta escrito assim: ' + p1.innerHTML)
 
@@ -12,6 +12,69 @@ const p1 = window.document.getElementsByTagName('p')[1]
 // const d = window.document.getElementsByClassName('msg')[0]
 // d.innerText = 'ola'
 
-const d = window.document.querySelector('div.msg')
-d.style.background = 'red'
+// const d = window.document.querySelector('div.msg')
+// d.style.background = 'red'
+
+
+
+
+
+
+
+// ---------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

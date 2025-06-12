@@ -135,6 +135,47 @@ body --> h1, p, p, div
 p --> strong
 
 
+=================SELECIONANDO=================
+POR MARCA = getElementsByTagName()
+
+POR ID
+POR NOME
+POR CLASSE 
+POR SELETOR
+
+ex:
+const p1 = window.document.getElementsByTagName('p')[1]
+
+window.document.writeln('esta escrito assim: ' + p1.innerHTML)
+
+=========================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

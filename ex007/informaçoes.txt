@@ -1,179 +1,119 @@
-O SINAL DE = EM JAVASCRIPT É CHAMADO DE RECEBE
-EX: VAGA A1 = CARRO1: A VAGA ESTÁ RECEBENDO O CARRO
-
-null = nulo valor nenhum
-----------------------------------------------------
-
-====================VARIAVEIS JS====================
-SERVE PARA ARMAZENAR OS DADOS (SALVAR)
-
-=================TIPOS PRIMITIVOS===================
-VARIAVEIS TIPO:
-STRING = TEXTO
-NUMBER = NUMERO
-BOOLEAN = FALSE , TRUE  = VERDADEIRO OU FALSO
-
-TYPEOF = "TIPO DE" 
-
-=====================================================
+---------------Método para colocar todas letras em maiúsculas---------------
+document.write(`Seu nome em maiusculo é ${nome.toUpperCase()}`)
 
 
 
+---------------Método para colocar todas letras em minúsculas---------------
+document.write(`Seu nome em minusculo é ${nome.toLowerCase()}`)
 
 
---------------OPERADORES ARITMETICOS JS--------------
 
-5+3 = 7
-5-2 = 3
-5*2 = 10
-5/2 = 2.5
-5 % 1 = 1 RESTO DO NUMERO INTEIRO %
-5** 2 = 25 NESTE CASO FICA 5 AO QUADRADO
-5+3 / 2 = 6.5 NESSE CASO ELE FAZ PRIMEIRO A DIVISAO
-(5 + 3) / 2 = NESSA CASO A SOMA E FEITO PRIMEIRO
+------------------metodo para formatar numeros ------------------
+toFixed(2) colocando duas casas decimal
+
+toFixed(2).replace('.' , ',')   substituindo . por ,
+
+   localizada onde:         stilo: dinheiro  forma do dinheiro desejado
+n1.toLocaleString('pt-BR', {style: 'currency',  currency: 'BRL'})    string localizada 
 
 
-------------------ODEN DE PRECEDENCIA------------------
-1 () PARENTESES
-2 ** POTENCIAS
-3 * MULTIPLICAÇAO
-4 / DIVISAO
-5 % RESTO DA DIVISAO
-
-6 + SOMA
-7 - SUBTRAÇAO
+=========COMO INPORTAR UM JS EXTERNO============================
+<script src="funçoes/function.js"></script>
 
 
-=============OPERADORES DE ATRIBUIÇOES SIMPLES=========
-const a = 5 + 3 
-const b = a % 5
-const c = 5*b**2
-const d = 10 - a/2
-const e = 6*2 /d
-const f = b % e + 4/e
 
+=========VARIAVEIS EM JS========= 
+NUMBER: NUMEROS INTEIROS E FRACIONADOS
+infinity:
+NaN:
 
-=============OPERADORES DE AUTO ATRIBUIÇOES=========
-const n = 3
-n = n + 4
-n = n - 5
-n * 4
-n = n/2
+-----------------------------------
+STRING: CONJUNTO COMPOSTO DE NUMEROS , - ETC...
 
-
-=======OPERADORES DE AUTO ATRIBUIÇOES SIMPLIFICADO ======
-PADRAO:           SIMPLIFICADO:
-const = n=3                   
-n=n + 4            n  += 4   
-n=n - 5            n  -= 5
-n=n * 4            n  *= 4       
-n=n / 2            n  /= 2         
-n=n **2            n  **= 2         
-n=n % 5            n  %=  5        
+-----------------------------------
+BOOLEAN: FALSE, TRUE = VERDADEIRO OU FALSO
 
 
 
 
-=======OPERADORES DE AUTO ATRIBUIÇOES INCREMTO ======
-PADRAO:          SIMPLIFICADO:    INCREMTO:            
-const x = 10                      x++         
-x=x+1              x+=1           x--            
-x=x-1               x-=                 
 
-OBS: ADICIONANDO 1 NUMERO A MAIS USANDO O ++
-OBS: TIRANDO 1 NUMERO  USANDO O --
+-----------------------------------
+// ARMAZENANDO DADOS USANDO CONST OU LET
+// O SINAL DE = EM JS TEM O SENTIDO DE RECEBER ALGO
+// EX: CONST VAGAA1 = "CARRO1"  =  A VAGA ESTA "RECEBENDO = " O VALOR CARRO 
+// VAGAA1 = NULL  NULO OU SEJA NAO RECEBE VALOR NENHUM 
 
 
-==============OPERADORES RELACIONAIS JS ==============
-> = MAIOR
-< = MENOR
-> = MAIOR OU IGUAL
-< = MENOR OU IGUAL
-== VERIFICAÇAO SE E IGUAL
-!= SE NAO FOR IGUAL
+
+
+//==========COMO SABER OS TIPOS DAS VARIAVEIS NUMBER  ETC...==============================
+typeof:
+
+EX1: const m =  "53"
+typeof m = string PORQUE ESTÁ DENTRO DE "" TUDO DE QUE ESTIVER DENTRO DE "" É STRING
+
+EX2: const n = 53
+typeof n = number  = PORQUE ESTÁ FORRA DO "" 
+
+OBS: COLOCANDO O typeof PODERA SABER O TIPO DE CADA UM DELES INDEPENDENTE DE QUAL SEJA!
+
+-----------------------------------------------------------------------------------------
+
+======COMO SOMAR EM JS=============== 
+COLOCANDO O NUMBER NA FRENTE DO (window.prompt("Digite um número")); 
+O JS VAI RECONHECER AUTOMATICAMENTE SE E NUMERO OU STRING
+
+const n1 = Number(window.prompt("Digite um número"));
+const n2 = Number(window.prompt("Digite outro número"));
+const s = n1 + n2;
+window.alert(`A soma de ${n1} + ${n2} é igual a ${s}`);
+
+----------------------------------------------------------------------------------------
+
+
+=====CONVERTER NUMERO INTEIRO PARA METADE===============================================
+
+PARA CONVERTER  PARA NUMERO
+PODE SER SO "parseint"
+
+PODE SER UTILIZADO SO Number, O JS SE VIRA PARA SABER MAIS DA CERTO
+
+Number.parseint(n)  NUMERO PARA NUMERO INTEIRO 
+
+Number.parseFloat(n) NUMERO COM VIRGULAS = CONVERTER PARA METADE EM METADE
 
 EX:
-5 > 2 TRUE
-7 < 4 FALSE
-8 >= 8 TRUE
-9 <=7 FALSE
-5 == 5 TRUE
-4 != 4 FALSE
+const n1 = Number.parseInt(window.prompt('Digite seu numero')) //RECEBE COMO NUMBER
 
-================OPERADORES DE IDENTIDADE JS ================
-5 == 5  TRUE
-5 == '5' TRUE
-5 === '5' FALSE  FAZ A VERIFICAÇAO SE SAO IDENTICOS
-5 === 5  TRUE 
+const n2 = Number.parseFloat(window.prompt('Digite seu numero')) //RECEBE COMO NUMBER
+
+const n3 = Number(window.prompt('Digite seu numero')) TBM DA CERTO
+========================================================================================
 
 
-====================OPERADORES LOGICOS JS====================
-! NEGAÇAO     UNARIO APENAS 1 
-&& CONJUNÇAO  BINARIO  
-|| DISJUNÇAO 'OU LOGICO' BINARIO
+=================================CONVERTER PARA STRING=================================
+string(soma)
+soma.toString()
+
+EX:
+const n1 = Number(window.prompt("Digite o numero"))
+const n2 = Number(window.prompt("Digite o numero"))
+
+const = soma n1 + n2
+
+EX1:
+window.alert(`A soma dos valores é ` + String(soma))
 
 
+EX2:
+window.alert(`A soma dos valores é ` + soma.toString())
+----------------------------------------------------------------------------------------
 
-======================OPERADOR TERNARIO======================
-3 OPERANDO 
-
-TESTE ? APROVADO : "REPROVADO"
-cosnt media = 5.5
-media > 7? 'APROVADO' : 'REPROVADO'
-
-
-====================DOM ====================
-CONJUNTO DE OBJETOS = DOCUMENT OBJECT MODEL
-
-ARVORE DOM = window = janela 
-window = location, document ,history, entre outros...
-
-document --> html
-html --> head, body
-head --> meta, title
-body --> h1, p, p, div
-p --> strong
-
-
-=================SELECIONANDO=================
-POR MARCA = getElementsByTagName()
-
-POR ID
-POR NOME
-POR CLASSE 
-POR SELETOR
-
-ex:
-const p1 = window.document.getElementsByTagName('p')[1]
-
-window.document.writeln('esta escrito assim: ' + p1.innerHTML)
-
-=========================================
-
-===============TECNICAS JS ===============
-getElementsByTagName
-ID
-Name
-className
-querySelector
-
-============================================
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+================TRABALHANDO COM STRING================
+const nome = window.prompt("qual e seu nome?")
+document.write(`seu nome tem ${nome.length} letras <br/>` )
+document.writeln(`nome em maiusculo ${nome.toUpperCase()} <br/>`);
+document.writeln(`nome em minusculo ${nome.toLowerCase()}`)
 
 
 

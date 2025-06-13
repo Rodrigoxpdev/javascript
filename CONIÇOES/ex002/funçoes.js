@@ -14,24 +14,6 @@
 
 
 
-function verificar(){
-    const texto = document.getElementById('txt1')
-    const res2 = document.getElementById('res2')
-    const nome = String(texto.value)
-
-    if (nome === 'rd'){
-        res2.innerHTML = `Seu nome é ${nome}` 
-    }
-    else{
-        res2.innerHTML = `Nome incorreto`
-    }
-}
-
-
-
-
-
-
 
 
 

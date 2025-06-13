@@ -12,8 +12,20 @@
 // } 
 
 
+const nm = 'Rodrigo'
 
+function verificar(){
+    const nome = document.getElementById('txt1')
+    const res2 = document.getElementById('res2')
 
+    if (nome.value.trim().toLowerCase() === "rodrigo"){
+        res2.innerHTML = `Acesso Autorizado Seja Bem Vindo ${nm}`
+
+    }else{
+        res2.innerHTML = `erro usuario nao autorizado`
+    }
+
+}
 
 
 

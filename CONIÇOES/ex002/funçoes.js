@@ -12,30 +12,40 @@
 // } 
 
 
-const nm = 'Rodrigo'
+// const nm = 'Rodrigo'
 
-function verificar(){
-    const nome = document.getElementById('txt1')
-    const res2 = document.getElementById('res2')
+// function verificar(){
+//     const nome = document.getElementById('txt1')
+//     const res2 = document.getElementById('res2')
 
-    if (nome.value.trim().toLowerCase() === "rodrigo"){
-        res2.innerHTML = `Acesso Autorizado Seja Bem Vindo ${nm}`
+//     if (nome.value.trim().toLowerCase() === "rodrigo"){
+//         res2.innerHTML = `Acesso Autorizado Seja Bem Vindo ${nm}`
 
-    }else{
-        res2.innerHTML = `erro usuario nao autorizado`
-    }
+//     }else{
+//         res2.innerHTML = `erro usuario nao autorizado`
+//     }
 
-}
-
-
+// }
 
 
 
 
+// ================ condiçoes compostas lininhadas===================
+// const perm = true 
+// const nome = 'Rodrigo'
+// const idade = 18
 
 
-
-
+// ----------codigos------------
+// if (perm == true){
+//     if (idade >= 18){
+//         console.log('voce tem 18 anos')
+//     }else{
+//         console.log('idade minima nao bate')
+//     }
+// }else{
+//     console.log('nao possui permissao')
+// }
 
 
 

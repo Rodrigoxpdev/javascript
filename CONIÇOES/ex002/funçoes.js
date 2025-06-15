@@ -47,8 +47,21 @@
 //     console.log('nao possui permissao')
 // }
 
+// idade = 60
+// if (idade < 16){
+//     console.log('nao vota')
+    
+// }else if (idade < 18 ) {
+//     console.log("voto opcional");
 
+// }else{
+//     console.log('voto obrigatorio')
+    
+// }
 
+// -----------condiçao multipla switch(expressao){}--------------
+// switch(expressao){
+// }
 
 
 

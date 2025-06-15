@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+body {
+    background: #fff;
+    color: #222;
+    transition: background 0.3s, color 0.3s;
+}
+body.dark-mode {
+    background: #222;
+    color: #fff;
+}
+
+button {
+    border-radius: 10px;
+    border: none;
+    color: rgb(0, 0, 0);
+    /* background: none; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

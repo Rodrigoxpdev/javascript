@@ -1,0 +1,70 @@
+@charset "UTF_8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* MODO CLARO */
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    color: #222;
+    transition: background 0.3s, color 0.3s;
+}
+/* MODO ESCURO */
+body.darkmode {
+    background: #222;
+    color: #fff;
+}
+
+
+/* ------------CONTEUDO PRINCIPAL------------ */
+form { 
+    display: flexbox;
+}
+
+section#card01 {
+    width: 300px;
+    height: 300px;
+    line-height: 60px;
+    text-align: center;
+    align-content: center;
+    background-color: rgb(83, 14, 161);
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.199);
+}
+
+input{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* BOTAO MODO ESCURO */
+#btnmd{
+    border: none;
+    background: none;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ==========================LINKS========================== -->
+    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    
+    <!-- ========================================================= -->
+    <title>Darkmode</title>
+</head>
+<body>
+    <main> <!--CONTEINER PAI-->
+        <section id="card01">
+
+                <!-- BOTAO MODO ESCURO -->
+            <button onclick="darkmode()" id="btnmd">
+                <span class="material-icons" id="iconMode">dark_mode</span>
+            </button>
+
+            <form action="#" autocomplete="on">
+                <!-- USUARIO -->
+                <P>
+                    <input type="text" name="texto" id="itexto" placeholder="Digite seu nome" minlength="5" maxlength="30" autocomplete="name" required>
+                </P>
+                
+                <!-- EMAIL -->
+                <P>
+                    <input type="email" name="email" id="iemail" autocomplete="email" placeholder="Digite seu email" required>
+                </P>
+
+                <!-- SENHA -->
+                <P>
+                    <input type="password" name="senha" id="isenha" minlength="5" maxlength="8" placeholder="Digite sua senha" autocomplete="current-password" required>
+                </P>
+
+
+                <!-- BOTAO CADASTRAR -->
+                <button type="submit" name="Cadastrar " id="icadastrar"> 
+                    Cadastrar
+                </button>
+            </form>
+        </section>
+
+        
+    </main>
+        
+        
+
+    <script src="funçoes.js"></script>
+</body>
+</html>

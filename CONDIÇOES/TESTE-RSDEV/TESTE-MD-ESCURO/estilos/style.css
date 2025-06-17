@@ -21,7 +21,18 @@ body.darkmode {
     background: #222;
     color: #fff;
 }
+/* ----------------------------------------------- */
 
+header{
+    width: 300px;
+    background-color: red;
+    justify-items: center;
+    align-items: flex-start;
+}
+
+header > h1{
+    
+}
 
 /* ------------CONTEUDO PRINCIPAL------------ */
 form { 
@@ -34,28 +45,39 @@ section#card01 {
     line-height: 60px;
     text-align: center;
     align-content: center;
-    background-color: rgb(83, 14, 161);
+    background-color: rgb(255, 255, 255);
     border-radius: 15px;
-    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.199);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.199);
 }
 
 input{
     padding: 10px;
     border-radius: 5px;
     border: none;
+    background-color: #c2c2c2;
 }
 
 /* BOTAO MODO ESCURO */
 #btnmd{
+    color: white;
     border: none;
     background: none;
     border-radius: 10px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(25, 58, 240);
 }
 
 
-
-
+/* BOTAO CADASTRAR */
+#icadastrar{
+    padding: 5px;
+    font-size: 1em;
+    width: 190px;
+    background-color: rgb(25, 58, 240);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    
+}
 
 
 

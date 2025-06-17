@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <title>Verificador de idade</title>
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+    <section>
+
+        <div>
+            <p>Ano de nascimento: </p>
+            <input type="number" name="txtano" id="itxtano" minlength="0" >
+            <p>Sexo:
+                <!-- MASCULINO -->
+                <input type="radio" name="radsex" id="masc" checked>
+                <label for="masc">Masculino</label>
+
+                <!-- FEMININO -->
+                <input type="radio" name="radsex" id="fem" checked>
+                <label for="fem">Feminino</label>
+                
+                <p>
+                    <button type="button" onclick="verificar()">verificar</button>
+                </p>
+            </p>
+        </div>
+
+            <div id="res">
+                
+            </div>
+        </section>
+
+    <footer>
+        <p>&copy; Rsdev.com</p>
+    </footer>
+
+
+
+
+    <!-- CONEXAO COM O JS -->
+    <script src="funçoes.js"></script>
+</body>
+</html>

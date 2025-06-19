@@ -1,0 +1,56 @@
+while = enquanto 
+
+let c = 1;
+
+while (c <= 6) { //ENQUANTO C FOR MENOR OU IGUAL A 6
+    console.log(`passo ${c}`);
+    c++; //ADICIONA MAIS UM NUMERO
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

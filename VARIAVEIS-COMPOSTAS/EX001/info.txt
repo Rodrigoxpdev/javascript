@@ -1,0 +1,41 @@
+array = vetor = variavel composta:
+é uma variavel que tem varios elememtos (valor, cheve de identificaçao)
+
+
+----lendo o codigo em português---
+for = para
+in = dentro
+
+for (let pos in num ) para cada posiçao dentro de num
+-----------------------------------------------------------------
+for(let pos = 0; pos < valores.length; pos++){
+     console.log(`A posição ${pos} tem o valor ${valores[pos]}`)
+}
+------------------------------------------------------------------
+
+-----------FORMA SIMPLIFICADA------
+for(let pos in valores ){
+        console.log(`A posição ${pos} tem o valor ${valores[pos]}`);
+    
+}
+
+----------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

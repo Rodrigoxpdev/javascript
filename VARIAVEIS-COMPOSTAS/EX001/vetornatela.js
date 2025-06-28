@@ -8,7 +8,6 @@ console.log(valores) //mostrando valores todos de uma so vez
 //FORMA SIMPLIFICADA
 for(let pos in valores ){
         console.log(`A posição ${pos} tem o valor ${valores[pos]}`);
-    
 }
 
 

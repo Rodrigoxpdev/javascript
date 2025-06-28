@@ -1,5 +1,5 @@
 
-
+// FUNÇAO
 function parimp(n){
     if (n%2 == 0){
         return 'par'
@@ -9,9 +9,12 @@ function parimp(n){
 }
 
 
+//CHAMADA DA FUNÇAO
+// const res =  parimp(11)
+// console.log(res)
 
-
-
+//EX 02 
+console.log(parimp(423))
 
 
 
